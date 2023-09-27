@@ -36,7 +36,8 @@ def makeplot(dataframe, par1="цена", par2="штуки", color1="#e695cb", co
   fig.update_layout(plot_bgcolor = "#f7f7f7")
   
 
-  fig.show()
+  #fig.show()
+  st.plotly_chart(fig)
 
 st.title('Генератор графиков')
 
