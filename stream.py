@@ -48,6 +48,6 @@ st.markdown('''
 uploaded_file = st.file_uploader('Загрузить файл', type='csv')
 if (uploaded_file is not None):
     df = pd.read_csv(uploaded_file)
-    st.markdown('success')
+    #st.markdown('success')
     #makeplot(df, par2="оборот")
     makeplot(df, par2="штуки")
